@@ -1,0 +1,106 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f7;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2{
+  color: #000;
+  text-align: center;
+  margin-left: 2%;
+}
+
+h3{
+  margin-top: 5%;
+  color: #504f4f;
+  text-align: center;
+  margin-left: 2%;
+}
+
+#activities-container, #form-container {
+  margin-top: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+#activities-list {
+  list-style-type: none;
+  padding: 0;
+  margin-left: 40%;
+  margin-right: -12%;
+}
+
+
+#activities-list li {
+  margin-bottom: 12px;
+  padding: 18px;
+  background-color: #fff;
+  border-radius: 8px;
+  margin-left: auto;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-right: 67%;
+}
+
+#activities-list li button {
+  margin-left: 10px;
+  padding: 8px;
+  border-radius: 8px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+button-modify {
+  background-color: #edd355;
+  padding: 8px;
+  border-radius: 8px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+button-delete {
+  background-color: #e1534b;
+  margin-left: 10px;
+  padding: 8px;
+  border-radius: 8px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+#activity-form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+#activity-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#activity-form input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+#activity-form input[type="submit"] {
+  padding: 10px;
+  background-color: #007aff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 93%;
+}
+
